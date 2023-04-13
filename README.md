@@ -1,4 +1,8 @@
 # goty-backend
+import * as express from 'express';
+import * as cors from 'cors';
+
+
 
 //express
 const app = express ();
@@ -17,5 +21,13 @@ app.get('/goty',async(req,res)=>{
 
 exports.api=functions.https.onRequest(app);
 
-import * as express from 'express';
-import * as cors from 'cors';
+
+
+//instalar dependencias
+firebase -g 
+npm install express cors
+npm install express express
+npm install @types/express --save-dev
+npm install @types/cors --save-dev
+
+firebase deploy
