@@ -1,3 +1,4 @@
+
 import * as functions from "firebase-functions";
 import * as admin   from 'firebase-admin';
 
@@ -72,5 +73,3 @@ app.post('/goty/:id',async(req,res)=>{
 
 // exports.api=functions.https.onRequest(app);
 export const api=functions.https.onRequest(app);
-
-
